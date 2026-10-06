@@ -1,0 +1,12 @@
+{
+  "in_scope_questions": 16,
+  "hit_at_1": 0.75,
+  "hit_at_3 (context recall)": 0.938,
+  "MRR": 0.859,
+  "context_precision_at_3": 0.312,
+  "in_scope_answer_rate": 1.0,
+  "off_topic_questions": 8,
+  "refused_by_threshold": 8,
+  "refused_by_LLM_after_threshold": 0,
+  "total_refusal_rate": 1.0
+}

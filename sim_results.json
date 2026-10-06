@@ -1,0 +1,26 @@
+{
+  "weak-random": {
+    "gain": 0.139,
+    "repetition": 0.336
+  },
+  "weak-adaptive": {
+    "gain": 0.15,
+    "repetition": 0.0
+  },
+  "average-random": {
+    "gain": 0.093,
+    "repetition": 0.336
+  },
+  "average-adaptive": {
+    "gain": 0.1,
+    "repetition": 0.0
+  },
+  "strong-random": {
+    "gain": 0.047,
+    "repetition": 0.336
+  },
+  "strong-adaptive": {
+    "gain": 0.05,
+    "repetition": 0.0
+  }
+}

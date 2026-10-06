@@ -1,0 +1,226 @@
+[
+  {
+    "question": "What is an alternative term for normalization mentioned in the lecture?",
+    "options": [
+      "Data deduplication",
+      "Schema refinement",
+      "Database structuring",
+      "Table optimization"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "topic": "Normalization Terminology",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=0",
+    "timestamp": "0:00"
+  },
+  {
+    "question": "What is the primary purpose of performing normalization in a database?",
+    "options": [
+      "To increase processing speed",
+      "To combine multiple tables",
+      "To reduce data redundancy",
+      "To encrypt sensitive data"
+    ],
+    "answer": 2,
+    "difficulty": "medium",
+    "topic": "Purpose of Normalization",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=0",
+    "timestamp": "0:00"
+  },
+  {
+    "question": "What is the term used in DBMS when the same data is present at multiple places?",
+    "options": [
+      "Data normalization",
+      "Data redundancy",
+      "Database anomaly",
+      "Database administration"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "topic": "Data Redundancy",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=62",
+    "timestamp": "1:02"
+  },
+  {
+    "question": "What technique should be used if you want to remove duplicate values in your database?",
+    "options": [
+      "Backup technique",
+      "Administration technique",
+      "Normalization technique",
+      "Anomaly technique"
+    ],
+    "answer": 2,
+    "difficulty": "easy",
+    "topic": "Normalization",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=62",
+    "timestamp": "1:02"
+  },
+  {
+    "question": "What progressive method is used to remove anomalies from a database and bring it to a consistent state?",
+    "options": [
+      "Data integration",
+      "Normalization",
+      "Duplication",
+      "Anomaly elimination"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "topic": "Normalization",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=125",
+    "timestamp": "2:05"
+  },
+  {
+    "question": "According to the excerpt, what causes data integrity problems, redundancy, and inconsistencies such as insertion anomalies?",
+    "options": [
+      "Missing age columns",
+      "Database growth",
+      "Data redundancy",
+      "Incorrect roll numbers"
+    ],
+    "answer": 2,
+    "difficulty": "medium",
+    "topic": "Database Anomalies",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=125",
+    "timestamp": "2:05"
+  },
+  {
+    "question": "What type of anomaly occurs when you are unable to insert data because some columns are missing at the time of insertion?",
+    "options": [
+      "Updation anomalies",
+      "Deletion anomalies",
+      "Incision anomalies",
+      "Relation anomalies"
+    ],
+    "answer": 2,
+    "difficulty": "easy",
+    "topic": "Database Anomalies",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=188",
+    "timestamp": "3:08"
+  },
+  {
+    "question": "According to the excerpt, how does normalization work?",
+    "options": [
+      "Through a series of stages called normal forms",
+      "By removing all columns except the name and rule number",
+      "By automatically deleting unnecessary records",
+      "Through the repetition of data items with the same values"
+    ],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "Normalization",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=188",
+    "timestamp": "3:08"
+  },
+  {
+    "question": "What is the result of removing duplicate values in a database according to the excerpt?",
+    "options": [
+      "Decreased performance",
+      "Data consistency and correctness",
+      "Increased data redundancy",
+      "Missing values in tables"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "topic": "Advantages of Normalization",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=252",
+    "timestamp": "4:12"
+  },
+  {
+    "question": "According to the excerpt, which normal forms cause a decrease in table performance as a disadvantage?",
+    "options": [
+      "First and second normal forms",
+      "Second and third normal forms",
+      "Third and fourth normal forms",
+      "Fourth and fifth normal forms"
+    ],
+    "answer": 3,
+    "difficulty": "medium",
+    "topic": "Disadvantages of Normalization",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=252",
+    "timestamp": "4:12"
+  },
+  {
+    "question": "What does first normal form (1NF) disallow in table columns?",
+    "options": [
+      "Single values",
+      "Atomic values",
+      "Multi-value attributes",
+      "Null values"
+    ],
+    "answer": 2,
+    "difficulty": "easy",
+    "topic": "First Normal Form",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=315",
+    "timestamp": "5:15"
+  },
+  {
+    "question": "According to the excerpt, when is a table considered to be in 1NF?",
+    "options": [
+      "When it contains only single values in its columns",
+      "When it contains multiple mobile numbers",
+      "When columns contain multi-value attributes",
+      "When it disallows normalization"
+    ],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "1NF Definition",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=315",
+    "timestamp": "5:15"
+  },
+  {
+    "question": "Which column in the original table contained multiple values, preventing it from being in First Normal Form (1NF)?",
+    "options": [
+      "Table name",
+      "Rule number",
+      "Branch",
+      "Language known"
+    ],
+    "answer": 3,
+    "difficulty": "easy",
+    "topic": "First Normal Form",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=378",
+    "timestamp": "6:18"
+  },
+  {
+    "question": "How are multi-valued attributes handled when converting a table into First Normal Form (1NF) according to the excerpt?",
+    "options": [
+      "They are deleted completely from the table.",
+      "They are converted into single value attributes by creating multiple records.",
+      "They are combined into a single comma-separated text string in one row.",
+      "They are moved to a completely separate database entirely."
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "topic": "1NF Conversion",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=378",
+    "timestamp": "6:18"
+  },
+  {
+    "question": "What are the conditions required for a table to be in the second normal form (2NF)?",
+    "options": [
+      "It must be in 1NF and have partial dependencies.",
+      "It must be in 1NF and contain no partial dependency.",
+      "It must contain multi-valued attributes and no partial dependency.",
+      "It must have duplicate values in the primary key column."
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "topic": "Second Normal Form",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=440",
+    "timestamp": "7:20"
+  },
+  {
+    "question": "According to the excerpt, what issue is present in the rule number column that violates the primary key requirements discussed?",
+    "options": [
+      "It contains multi-valued attributes.",
+      "It is missing completely from the table.",
+      "It contains duplicate values such as rule numbers 21, 22, and 24.",
+      "It contains only single unique values."
+    ],
+    "answer": 2,
+    "difficulty": "easy",
+    "topic": "Primary Key and Table Data",
+    "source": "https://youtu.be/IBEuwmYsMKI?t=440",
+    "timestamp": "7:20"
+  }
+]
